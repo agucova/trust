@@ -197,7 +197,7 @@ SLIDES.push({
 			})(character, x, y);
 		};
 		var x = 510;
-		var y = 295;
+		var y = 320;
 		var dx = 200;
 		var dy = 70;
 		_addButton("tf2t", x, y); _addButton("pavlov", x+dx, y);
@@ -207,7 +207,7 @@ SLIDES.push({
 		// WHO'S WHO?
 		self.add({
 			id:"forgot", type:"TextBox",
-			x:715, y:435, width:190, height:50,
+			x:715, y:460, width:190, height:50,
 			align:"center", color:"#aaa", size:15,
 			text_id:"forgot_whos_who"
 		});

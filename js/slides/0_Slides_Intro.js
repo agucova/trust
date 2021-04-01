@@ -67,13 +67,13 @@ SLIDES.push({
 
 		// Button
 		self.add({
-			id:"loading_button", type:"Button", x:382, y:410,
+			id:"loading_button", type:"Button", x:382, y:440,
 			text_id:"loading",
 			active:false
 		});
 		var _loadingWords = function(ratio){
 			ratio = Math.round(ratio*100);
-			o.loading_button.setText2(Words.get("loading")+" "+ratio+"%");
+			o.loading_button.setText2(Words.get("loading"));
 		};
 
 		// PRELOADER

@@ -154,7 +154,6 @@ s{
 
 /******** Text Box ********/
 
-.textbox{}
 .textbox > div{
 	position: absolute;
 }
@@ -541,4 +540,3 @@ s{
 .credits a:hover{
 	color:#ee5151;
 }
-

@@ -16,22 +16,22 @@ SLIDES.push({
 		});
 		self.add({
 			id:"text2", type:"TextBox",
-			x:0, y:235, width:287, height:117, align:"center",
+			x:0, y:245, width:287, height:117, align:"center",
 			text_id:"evolution_intro_1"
 		});
 		self.add({
 			id:"text3", type:"TextBox",
-			x:336, y:235, width:287, height:117, align:"center",
+			x:336, y:245, width:287, height:117, align:"center",
 			text_id:"evolution_intro_2"
 		});
 		self.add({
 			id:"text4", type:"TextBox",
-			x:669, y:235, width:287, height:117, align:"center",
+			x:669, y:245, width:287, height:117, align:"center",
 			text_id:"evolution_intro_3"
 		});
 		self.add({
 			id:"text5", type:"TextBox",
-			x:132, y:370, width:817, height:95, align:"right",
+			x:132, y:405, width:817, height:95, align:"right",
 			text_id:"evolution_intro_footer"
 		});
 
@@ -39,12 +39,12 @@ SLIDES.push({
 		self.add({
 			id:"img", type:"ImageBox",
 			src: "assets/evolution/evolution_intro.png",
-			x:0, y:60, width:960, height:170
+			x:0, y:70, width:960, height:70
 		});
 
 		// Button
 		self.add({
-			id:"button", type:"Button", x:615, y:466, 
+			id:"button", type:"Button", x:615, y:520, 
 			text_id:"evolution_intro_button", size:"long",
 			message:"slideshow/scratch"
 		});
@@ -89,9 +89,9 @@ SLIDES.push({
 				});
 			})(character, x, y);
 		};
-		_addButton("all_c", 510, 295);
-		_addButton("all_d", 510, 295+70);
-		_addButton("tft", 510, 295+70*2);
+		_addButton("all_c", 510, 320);
+		_addButton("all_d", 510, 320+70);
+		_addButton("tft", 510, 320+70*2);
 
 		// WHO'S WHO?
 		self.add({
@@ -123,7 +123,7 @@ SLIDES.push({
 
 		// The tournament control buttons
 		var x = 510;
-		var y = 200;
+		var y = 230;
 		var nextStep;
 		// [FOR DEBUGGING]
 		var textStep = 2;
@@ -205,7 +205,7 @@ SLIDES.push({
 
 		// Oh by the way...
 		self.add({
-			id:"button", type:"Button", x:510, y:320, 
+			id:"button", type:"Button", x:510, y:400, 
 			text_id:"evo_9_btn", size:"long",
 			message: "slideshow/next"
 		});
@@ -243,7 +243,7 @@ SLIDES.push({
 		// Button: start/stop
 		var isPlaying = false;
 		self.add({
-			id:"autoplay", type:"Button", x:510, y:100, 
+			id:"autoplay", type:"Button", x:510, y:120, 
 			text_id:"evo_autoplay", size:"long",
 			onclick: function(){
 				if(!isPlaying){
@@ -273,14 +273,14 @@ SLIDES.push({
 			// Text followup (hidden)
 			self.add({
 				id:"text2", type:"TextBox",
-				x:510, y:180, width:450, height:500,
+				x:510, y:200, width:450, height:500,
 				text_id:"evo_10_followup"
 			});
 			_hide(o.text2); _fadeIn(o.text2, 400);
 
 			// Button: next (hidden)
 			self.add({
-				id:"next", type:"Button", x:510, y:450, 
+				id:"next", type:"Button", x:510, y:490, 
 				text_id:"evo_10_btn", size:"long",
 				message: "slideshow/next"
 			});
@@ -319,7 +319,7 @@ SLIDES.push({
 
 		// Next
 		self.add({
-			id:"next", type:"Button", x:510, y:425, 
+			id:"next", type:"Button", x:510, y:460, 
 			text_id:"evo_11_btn", size:"long",
 			message: "slideshow/next"
 		});
@@ -336,5 +336,3 @@ SLIDES.push({
 // Problem 2: Payoffs
 
 // Teaser...
-
-
