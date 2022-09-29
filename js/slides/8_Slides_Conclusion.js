@@ -53,7 +53,7 @@ SLIDES.push({
 
 		// Button
 		self.add({
-			id:"button", type:"Button", x:615, y:481, 
+			id:"button", type:"Button", x:615, y:481,
 			text_id:"conclusion_btn", size:"long",
 			message:"slideshow/scratch"
 		});
@@ -79,7 +79,7 @@ SLIDES.push({
 
 		// Button
 		self.add({
-			id:"button", type:"Button", x:385, y:500, 
+			id:"button", type:"Button", x:385, y:525,
 			text_id:"outro_1_btn",
 			message:"slideshow/next"
 		});
@@ -123,7 +123,7 @@ SLIDES.push({
 
 		// Button
 		self.add({
-			id:"button", type:"Button", x:427, y:466, 
+			id:"button", type:"Button", x:427, y:466,
 			text_id:"outro_2_btn", size:"short",
 			message:"slideshow/scratch"
 		});
